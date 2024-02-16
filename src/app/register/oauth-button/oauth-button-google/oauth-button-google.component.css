@@ -1,0 +1,24 @@
+button {
+  width: 17rem;
+  height: 2.35rem;
+  color: rgb(234, 234, 234);
+  background-color: #272727;
+  border-radius: 8px;
+  border: 2px solid #303030;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: #2a2a2a;
+  color: rgb(212, 212, 212);
+  cursor: pointer;
+}
+
+app-google-svg {
+  transition-duration: 0.3s;
+  vertical-align: middle;
+}
+button:hover > app-google-svg {
+  opacity: 80%;
+}
+
